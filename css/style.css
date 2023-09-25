@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2c0915e4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main,
+header,
+footer {
+    max-width: 1200px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: white !important;
+    font-size: 1.5rem !important;
+    margin: 0 !important;
+    padding-bottom: 1rem
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Tilt Neon', cursive;
+}
+
+.navbar-toggler {
+    border: 1px solid white !important;
+}
+
+.navbar-toggler:hover {
+    background-color: #3c021b;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#carouselPlatosTradicionalesAutoplaying img {
+    width: auto;
+    height: 450px;
+}
+
+
+#arepa-icono {
+    width: 50px;
+    height: 50px;
+}
+
+#arepa-icono-titulo {
+    margin-top: 0.5rem;
+    width: 120px;
+    height: 120px;
+}
+
+.center-icon-container {
+    background-color: #260612;
+    max-width: 220px;
+    margin: 1rem auto auto;
+    border-radius: 50%;
+    height: auto;
+    margin-bottom: -6px;
+}
+
+#color-hr-bottom {
+    margin-bottom: 20px;
+    margin-top: 0;
+    border: 4px solid #260612;
+    background-color: #260612;
+}
+
+#color-hr-top {
+    border: 4px solid #260612;
+    background-color: #260612;
+    margin-bottom: -24px;
+}
+
+.navbar-brand p {
+    font-size: 1rem;
+    color: white;
+}
+
+main,
+footer {
+    width: 100%;
+}
+
+.contacto {
+    margin: 0 2rem;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.navbar {
+    background-color: #17040be4;
+}
+
+.dropdown-menu {
+    background-color: #17040b;
+}
+
+.dropdown-menu a:hover {
+    background-color: #17040b;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #ffffff6b;
+}
+
+.navbar a:focus {
+    color: #ffffff6b;
+}
+
+.card {
+    height: 30rem;
+    max-height: 30rem;
+    border: none;
+}
+
+.btn-outline-secondary {
+    transition: 500ms;
+    color: #3c021b;
+    border: 2px solid #3c021b;
+}
+
+.btn-outline-secondary:hover {
+    transition: 500ms;
+    background-color: #3c021b;
+    border: 2px solid #3c021b;
+    color: white !important;
+    font-weight: bolder;
+}
+
+.btn-outline-secondary:focus {
+    transition: 500ms;
+    color: #ffffffbc !important;
+    background-color: #260612 !important;
+    border: 2px solid #260612 !important;
+}
+
+.btn-primary {
+    background-color: #3c021b;
+    border: 1px solid #3c021b !important;
+}
+
+.btn-primary:hover {
+    transition: 500ms;
+    background-color: #3c021b;
+    font-weight: bolder;
+    border: 1px solid #3c021b !important;
+}
+
+.btn-primary:focus {
+    transition: 500ms;
+    color: #ffffffbc !important;
+    background-color: #260612 !important;
+}
+
+.contacto h2 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.badge {
+    background-color: #3c021b !important;
+    border-radius: 20px;
+}
+
+.contacto input,
+.contacto textarea {
+    border: none;
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contacto label {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 1rem;
+}
+
+.contacto textarea {
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.footer-icons div {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.footer-icons svg {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1.25rem;
+
+}
+
+.bi-twitter {
+    color: #1da1f2;
+}
+
+.bi-instagram {
+    color: #f56040;
+}
+
+.bi-facebook {
+    color: #1877f2;
+}
+
+.card-body p {
+    height: 50%;
+}
+
+@media (min-width: 576px) {
+    .card-body p {
+        height: 62%;
+    }
+
+    .card {
+        height: 26rem;
+        max-height: 26rem;
+    }
+
+    img {
+        height: 35%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        height: 30rem;
+        max-height: 30rem;
+    }
+
+    .card-body p {
+        height: 50%;
+    }
+
+    img {
+        height: 55%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .card-body p {
+        height: 70%;
+    }
+
+    img {
+        height: 35%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        height: 28rem;
+        max-height: 28rem;
+    }
+
+    .card-body p {
+        height: 60%;
+    }
+
+    img {
+        height: 45%;
+    }
+}
